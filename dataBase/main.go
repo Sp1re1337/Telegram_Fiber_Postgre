@@ -24,7 +24,7 @@ func main() {
 
 
 	// Запуск серверу
-	err = app.Listen(":8080")
+	err = app.Listen(":Port")
 	if err != nil {
 		log.Fatalf("Помилка запуску сервера: %v", err)
 	}
